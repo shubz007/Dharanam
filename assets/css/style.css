@@ -3465,7 +3465,7 @@ hero-style3
 --------------------------------------------------------------*/
 .tp-site-footer,
 .tp-site-footer {
-    background: #1e1e1e;
+    background-color: #0b2f83;
     position: relative;
     font-size: 15px;
     overflow: hidden;
@@ -3486,12 +3486,12 @@ hero-style3
 
 .tp-site-footer p,
 .tp-site-footer li {
-    color: #fff;
+    color: #000000;
 }
 
 .tp-site-footer-2 p,
 .tp-site-footer-2 li {
-    color: #444444;
+    color: #000000;
 }
 
 .tp-site-footer .container,
@@ -3555,7 +3555,7 @@ hero-style3
 .tp-site-footer-2 .widget-title h3 {
     font-size: 23px;
     font-weight: bold;
-    color: #fff;
+    color: #000000;
     margin: 0;
     text-transform: capitalize;
     position: relative;
@@ -3617,7 +3617,7 @@ hero-style3
 }
 
 .tp-site-footer-2 .about-widget ul a {
-    color: #404040;
+    color: #000000;
 }
 
 .tp-site-footer .about-widget ul a:hover,
@@ -3751,7 +3751,7 @@ hero-style3
 
 .tp-site-footer .tp-lower-footer .copyright a,
 .tp-site-footer-2 .tp-lower-footer .copyright a {
-    color: #fff;
+    color: #000000;
     text-decoration: underline;
 }
 
