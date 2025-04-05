@@ -5102,7 +5102,7 @@ ul {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background: url(../images/cta.jpg) no-repeat center center / cover;
+    background: url(../images/img.png) no-repeat center center / cover;
     align-items: center;
     position: relative;
     z-index: 1;
@@ -5396,7 +5396,7 @@ breadcumb-style
 ------------------------------------------------------------------*/
 
 .tp-breadcumb-area {
-    background: url(../images/breadcumb/img-1.jpg) no-repeat center top / cover;
+   
     min-height: 350px;
     position: relative;
     display: flex;
