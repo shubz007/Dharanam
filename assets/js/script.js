@@ -693,57 +693,57 @@
 
     /*------------------------------------------
         = CONTACT FORM SUBMISSION
-    -------------------------------------------*/
-    if ($("#contact-form").length) {
-        $("#contact-form").validate({
-            rules: {
-                name: {
-                    required: true,
-                    minlength: 2
-                },
+    // -------------------------------------------*/
+    // if ($("#contact-form").length) {
+    //     $("#contact-form").validate({
+    //         rules: {
+    //             name: {
+    //                 required: true,
+    //                 minlength: 2
+    //             },
 
-                name2: "required",
+    //             name2: "required",
 
-                email: "required",
+    //             email: "required",
 
-                subject: "required",
+    //             subject: "required",
 
-                address: "required"
-            },
+    //             address: "required"
+    //         },
 
-            messages: {
-                name: "Please enter your name",
-                name2: "Please enter your name",
-                email: "Please enter your email address",
-                subject: "Please enter your Subject",
-            },
+    //         messages: {
+    //             name: "Please enter your name",
+    //             name2: "Please enter your name",
+    //             email: "Please enter your email address",
+    //             subject: "Please enter your Subject",
+    //         },
 
-            submitHandler: function (form) {
-                $.ajax({
-                    type: "POST",
-                    url: "mail.php",
-                    data: $(form).serialize(),
-                    success: function () {
-                        $( "#loader").hide();
-                        $( "#success").slideDown( "slow" );
-                        setTimeout(function() {
-                        $( "#success").slideUp( "slow" );
-                        }, 3000);
-                        form.reset();
-                    },
-                    error: function() {
-                        $( "#loader").hide();
-                        $( "#error").slideDown( "slow" );
-                        setTimeout(function() {
-                        $( "#error").slideUp( "slow" );
-                        }, 3000);
-                    }
-                });
-                return false; // required to block normal submit since you used ajax
-            }
+    //         submitHandler: function (form) {
+    //             $.ajax({
+    //                 type: "POST",
+    //                 url: "mail.php",
+    //                 data: $(form).serialize(),
+    //                 success: function () {
+    //                     $( "#loader").hide();
+    //                     $( "#success").slideDown( "slow" );
+    //                     setTimeout(function() {
+    //                     $( "#success").slideUp( "slow" );
+    //                     }, 3000);
+    //                     form.reset();
+    //                 },
+    //                 error: function() {
+    //                     $( "#loader").hide();
+    //                     $( "#error").slideDown( "slow" );
+    //                     setTimeout(function() {
+    //                     $( "#error").slideUp( "slow" );
+    //                     }, 3000);
+    //                 }
+    //             });
+    //             return false; // required to block normal submit since you used ajax
+    //         }
 
-        });
-    }
+    //     });
+    // }
 
 
 

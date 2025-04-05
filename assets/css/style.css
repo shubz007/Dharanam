@@ -3465,7 +3465,7 @@ hero-style3
 --------------------------------------------------------------*/
 .tp-site-footer,
 .tp-site-footer {
-    background-color: #0b2f83;
+    background-color:#1e1e1e;
     position: relative;
     font-size: 15px;
     overflow: hidden;
@@ -4288,7 +4288,7 @@ ul {
     }
 
     .about-content {
-        margin-top: 30px;
+        /* margin-top: px; */
     }
 
     .about-style-1 .about-img:before,
