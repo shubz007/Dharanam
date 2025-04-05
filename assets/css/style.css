@@ -3486,12 +3486,12 @@ hero-style3
 
 .tp-site-footer p,
 .tp-site-footer li {
-    color: #000000;
+    color: #ffffff;
 }
 
 .tp-site-footer-2 p,
 .tp-site-footer-2 li {
-    color: #000000;
+    color: #ffffff;
 }
 
 .tp-site-footer .container,
@@ -3555,14 +3555,14 @@ hero-style3
 .tp-site-footer-2 .widget-title h3 {
     font-size: 23px;
     font-weight: bold;
-    color: #000000;
+    color: #ffffff;
     margin: 0;
     text-transform: capitalize;
     position: relative;
 }
 
 .tp-site-footer-2 .widget-title h3 {
-    color: #2d4277;
+    color: #ffffff;
 }
 
 @media (max-width: 991px) {
@@ -3617,7 +3617,7 @@ hero-style3
 }
 
 .tp-site-footer-2 .about-widget ul a {
-    color: #000000;
+    color: #ffffff;
 }
 
 .tp-site-footer .about-widget ul a:hover,
@@ -3679,7 +3679,7 @@ hero-style3
 }
 
 .tp-site-footer-2 .link-widget ul a {
-    color: #404040;
+    color: #ffffff;
 }
 
 .tp-site-footer .link-widget ul a:hover,
@@ -3722,7 +3722,7 @@ hero-style3
 .tp-site-footer-2 .tp-lower-footer {
     text-align: center;
     position: relative;
-    background: #262525;
+    background: #ffffff;
 }
 
 .tp-site-footer .tp-lower-footer .row,
@@ -3751,7 +3751,7 @@ hero-style3
 
 .tp-site-footer .tp-lower-footer .copyright a,
 .tp-site-footer-2 .tp-lower-footer .copyright a {
-    color: #000000;
+    color: #fffafa;
     text-decoration: underline;
 }
 
